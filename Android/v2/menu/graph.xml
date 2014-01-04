@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+   
+    
+    <item android:id="@+id/action_edit"
+          android:icon="@drawable/contentedit"
+          android:title="@string/actionedit"
+          android:showAsAction="always" />
+
+     <item
+       android:id="@+id/action_discard"
+          android:icon="@drawable/contentdiscard"
+          android:title="@string/actiondiscard"
+          android:showAsAction="always" />
+    
+    
+     <item
+       android:id="@+id/action_new"
+        android:actionViewClass="android.widget.newView"
+          android:icon="@drawable/contentnew"
+          android:title="@string/actionnew"
+          android:showAsAction="always" />
+    
+     
+     
+     
+     <item
+       android:id="@+id/action_audio"
+          android:icon="@drawable/deviceaccessmic"
+          android:title="@string/actionaccessmic"
+          android:showAsAction="always" />
+    
+     
+    <item
+       android:id="@+id/action_video"
+          android:icon="@drawable/deviceaccessvideo"
+          android:title="@string/actionaccessvideo"
+          android:showAsAction="always" />
+    
+    
+      
+     
+</menu>
