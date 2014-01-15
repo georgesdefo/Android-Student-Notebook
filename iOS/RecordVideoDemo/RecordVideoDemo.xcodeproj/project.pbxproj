@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77974CB2152C085A002A6C9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77974CB1152C085A002A6C9F /* UIKit.framework */; };
+		77974CB4152C085A002A6C9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77974CB3152C085A002A6C9F /* Foundation.framework */; };
+		77974CB6152C085A002A6C9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77974CB5152C085A002A6C9F /* CoreGraphics.framework */; };
+		77974CBC152C085A002A6C9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77974CBA152C085A002A6C9F /* InfoPlist.strings */; };
+		77974CBE152C085A002A6C9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77974CBD152C085A002A6C9F /* main.m */; };
+		77974CC2152C085A002A6C9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77974CC1152C085A002A6C9F /* AppDelegate.m */; };
+		77974CCB152C086C002A6C9F /* MyVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77974CC9152C086C002A6C9F /* MyVideoController.m */; };
+		77974CCC152C086C002A6C9F /* MyVideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77974CCA152C086C002A6C9F /* MyVideoController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77974CAD152C085A002A6C9F /* RecordVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77974CB1152C085A002A6C9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77974CB3152C085A002A6C9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77974CB5152C085A002A6C9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77974CB9152C085A002A6C9F /* RecordVideoDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecordVideoDemo-Info.plist"; sourceTree = "<group>"; };
+		77974CBB152C085A002A6C9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77974CBD152C085A002A6C9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77974CBF152C085A002A6C9F /* RecordVideoDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecordVideoDemo-Prefix.pch"; sourceTree = "<group>"; };
+		77974CC0152C085A002A6C9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77974CC1152C085A002A6C9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77974CC8152C086C002A6C9F /* MyVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVideoController.h; sourceTree = "<group>"; };
+		77974CC9152C086C002A6C9F /* MyVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVideoController.m; sourceTree = "<group>"; };
+		77974CCA152C086C002A6C9F /* MyVideoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyVideoController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77974CAA152C085A002A6C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77974CB2152C085A002A6C9F /* UIKit.framework in Frameworks */,
+				77974CB4152C085A002A6C9F /* Foundation.framework in Frameworks */,
+				77974CB6152C085A002A6C9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77974CA2152C085A002A6C9F = {
+			isa = PBXGroup;
+			children = (
+				77974CB7152C085A002A6C9F /* RecordVideoDemo */,
+				77974CB0152C085A002A6C9F /* Frameworks */,
+				77974CAE152C085A002A6C9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77974CAE152C085A002A6C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77974CAD152C085A002A6C9F /* RecordVideoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77974CB0152C085A002A6C9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77974CB1152C085A002A6C9F /* UIKit.framework */,
+				77974CB3152C085A002A6C9F /* Foundation.framework */,
+				77974CB5152C085A002A6C9F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77974CB7152C085A002A6C9F /* RecordVideoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				77974CC0152C085A002A6C9F /* AppDelegate.h */,
+				77974CC1152C085A002A6C9F /* AppDelegate.m */,
+				77974CB8152C085A002A6C9F /* Supporting Files */,
+				77974CC8152C086C002A6C9F /* MyVideoController.h */,
+				77974CC9152C086C002A6C9F /* MyVideoController.m */,
+				77974CCA152C086C002A6C9F /* MyVideoController.xib */,
+			);
+			path = RecordVideoDemo;
+			sourceTree = "<group>";
+		};
+		77974CB8152C085A002A6C9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77974CB9152C085A002A6C9F /* RecordVideoDemo-Info.plist */,
+				77974CBA152C085A002A6C9F /* InfoPlist.strings */,
+				77974CBD152C085A002A6C9F /* main.m */,
+				77974CBF152C085A002A6C9F /* RecordVideoDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77974CAC152C085A002A6C9F /* RecordVideoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77974CC5152C085A002A6C9F /* Build configuration list for PBXNativeTarget "RecordVideoDemo" */;
+			buildPhases = (
+				77974CA9152C085A002A6C9F /* Sources */,
+				77974CAA152C085A002A6C9F /* Frameworks */,
+				77974CAB152C085A002A6C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordVideoDemo;
+			productName = RecordVideoDemo;
+			productReference = 77974CAD152C085A002A6C9F /* RecordVideoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77974CA4152C085A002A6C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = QUAGNITIA;
+			};
+			buildConfigurationList = 77974CA7152C085A002A6C9F /* Build configuration list for PBXProject "RecordVideoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77974CA2152C085A002A6C9F;
+			productRefGroup = 77974CAE152C085A002A6C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77974CAC152C085A002A6C9F /* RecordVideoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77974CAB152C085A002A6C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77974CBC152C085A002A6C9F /* InfoPlist.strings in Resources */,
+				77974CCC152C086C002A6C9F /* MyVideoController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77974CA9152C085A002A6C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77974CBE152C085A002A6C9F /* main.m in Sources */,
+				77974CC2152C085A002A6C9F /* AppDelegate.m in Sources */,
+				77974CCB152C086C002A6C9F /* MyVideoController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77974CBA152C085A002A6C9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77974CBB152C085A002A6C9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77974CC3152C085A002A6C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77974CC4152C085A002A6C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77974CC6152C085A002A6C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecordVideoDemo/RecordVideoDemo-Prefix.pch";
+				INFOPLIST_FILE = "RecordVideoDemo/RecordVideoDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77974CC7152C085A002A6C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecordVideoDemo/RecordVideoDemo-Prefix.pch";
+				INFOPLIST_FILE = "RecordVideoDemo/RecordVideoDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77974CA7152C085A002A6C9F /* Build configuration list for PBXProject "RecordVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77974CC3152C085A002A6C9F /* Debug */,
+				77974CC4152C085A002A6C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77974CC5152C085A002A6C9F /* Build configuration list for PBXNativeTarget "RecordVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77974CC6152C085A002A6C9F /* Debug */,
+				77974CC7152C085A002A6C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77974CA4152C085A002A6C9F /* Project object */;
+}
