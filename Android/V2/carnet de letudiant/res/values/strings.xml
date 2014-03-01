@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carnet de l\'étudiant</string>
+    <string name="app_nam">Carnet de l\'étudiant</string>
+    <string name="action_setting">Settings</string>
+    <string name="video_recording">Video Recording</string>
+    <string name="capture">Capture</string>
+    
+    
+    <string name="it1">Refresh</string>
+    <string name="it2">Settings</string>
+    
+    <string name="tv">recording.</string>
+    
+    <string name="actionnew">mark</string>
+     <string name="actiondiscard">annuler!</string>
+     <string name="actionvideo">video</string>
+     <string name="actionaudio">audio</string>
+     <string name="actionstorage">enregistrer</string>
+     <string name="actionedit">note</string>
+     <string name="actionaccessmic">acces micro</string>
+     <string name="actionaccessvideo">take pictue</string>
+     <string name="play">play</string>
+     <string name="stop"> stop</string>
+     <string name="Sauvegarder"> sauvegarder</string>
+     <string name="record"> Enregistrement:</string>
+     
+    <string name="titre">Entrer votre titre: eg. note 1</string>
+    <string name="content">votre note</string>    
+    <string name="contenttitle">Type Your Message : </string>
+    <string name="content2">Non du Fichier</string>    
+    <string name="contenttitle2">Titre de l\'enregistrement</string>
+    
+    <string name="fragmentdroit">Tout votre contenue</string>
+    <string name="fragmentdroitplus">Vos enregistrement</string>
+    <string name="startv">Start</string>
+    <string name="stopv">Stop</string>
+    <string name="startreview">StartReview</string>
+    <string name="stopreview">StopReview</string>
+    <string name="placeholder">start shooting</string>
+    
+</resources>

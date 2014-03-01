@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ 
+     
+     <item
+       android:id="@+id/action_audio"
+          android:icon="@drawable/deviceaccessmic"
+          android:title="@string/actionaccessmic"
+          android:showAsAction="always" />
+    
+     
+    <item
+       android:id="@+id/action_video"
+          android:icon="@drawable/deviceaccessvideo"
+          android:title="@string/actionaccessvideo"
+          android:showAsAction="always" />
+    
+    
+      
+     
+</menu>
